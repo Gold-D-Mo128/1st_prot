@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Contact</title>
+    <!-- two sheets first one for specielized style and the other for general styles  respectively -->
+    <link rel="stylesheet" href="./contact-page/contact.css">
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="1st lens">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="photoshoot events photography camera photographer freelancer modeling landscape ">
+    <link rel="shortcut icon" type="image/png" href="../assets/website-icons/logo copy.png"/>
+
+  </head>
+  <body>
+      <!-- reusable component -->
+      <nav class="navigation-bar">
+        <img href="./home.html"src="../assets/home/logo.png" alt="EDGE logo" class="logo">
+        
+        <ul class="nav-bar-links">
+            <li class="nav-link">
+                <a  href="index.html">HOME</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="services.html">SERVICES</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="gallery.html">GALLERY</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="about.html">ABOUT</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="./contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="banners" >
+            <h2>CONTACT</h2>
+        </div>
+        <div class="contact">
+            <!-- using grid css on the form to organize -->
+            <form class="contact-box">
+                <h2>SEND US A MESSAGE!!!</h2>
+                <h4>NAME:   </h4>
+                <input class="input"></input>
+                <h4>EMAIL:   </h4>
+                <input class="input"></input>
+                <h4>MASSAGE:</h4>
+                <textarea placeholder="type your message...." id="messagearea"></textarea>
+                <button type="submit" class="submit-button" onclick="success()" >SEND</button>
+            </form>
+            <!-- address -->
+            <div class="address">
+                <h3>VISIT US</h3>
+                <p><strong>CITY:</strong> DUBAI</p>
+                <p><strong>STATE/PROVINCE/AREA:</strong> DUBAI</p>
+                <p><strong> P.O BOX:</strong> 116326</p>
+                <p><strong>ZIP-CODE:</strong> 11632</p>
+                <p><strong>PHONE NUMBER:</strong><br> +971-50-1245598</p>
+            </div>
+        </div>
+        
+
+    </main>
+    <!-- reusable component -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="about.html">  ABOUT US  </a>
+            <span>|</span>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+        <span>EDGE 2021 all rights reserved ©</span>
+    </footer>
+    <!-- alert message on submit -->
+    <script>
+        function success() {
+          alert("MESSAGE SENT! \nAN OPERATOR WILL GET BACK TO YOU SHORTLY");
+        }
+        </script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Services</title>
+    <link rel="stylesheet" href="./services_page/services.css">
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="1st lens">
+    <meta name="keywords" content="photoshoot events photography camera photographer freelancer modeling landscape ">
+    <meta name="viewport" content="width=device-width, initial-scale=0, minimum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../assets/website-icons/logo copy.png"/>
+    
+  </head>
+  <body>
+
+    <nav class="navigation-bar">
+        <img href="./home.html"src="../assets/home/logo.png" alt="EDGE logo" class="logo">
+        
+        <ul class="nav-bar-links">
+            <li class="nav-link">
+                <a  href="index.html">HOME</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="./services.html">SERVICES</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="gallery.html">GALLERY</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="about.html">ABOUT</a>
+            </li>
+            
+            <li class="nav-link">
+                <a  href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="banners">
+            <h2>OUR SERVICES</h2>
+        </header>
+        <!-- as you can see here on the data-before-content and data-after-content, i used this technique because its more efficient for styling than paragraph tags -->
+        <div class="service">
+            <div class="image-container wedding" 
+            data-before-content="WEDDING PHOTOGRAPHY" 
+            data-after-content="We share the beautiful moments that you create, and document it for your future to witness">
+                <img src="../assets/services/wedding.jpg" alt="Header image" class="serviceImg" id="test">
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="image-container proposal"
+                data-before-content="FREELANCING" 
+                data-after-content="And we always like to capture the happy moments with pride">
+
+                <img src="../assets/services/proposal.jpg" 
+                alt="Header image" class="serviceImg" >
+            </div>
+        </div>
+        <div class="service">
+            <div class="image-container nature"
+                data-before-content="NATURE PHOTOSHOOTS" 
+                data-after-content="A lovely, lively memory to remember the peacefull times">
+                <img src="../assets/services/nature.jpg" alt="Header image" class="serviceImg" id="test">
+            </div>
+        </div>
+        <div class="service">
+            <div class="image-container photoshoot"
+                data-before-content="MODELING PHOTOSHOOTS" 
+                data-after-content="We are assembling the tools for you to express yourself">
+                <img src="../assets/services/photoshoot.jpg" alt="Header image" class="serviceImg" id="test">
+            </div>
+        </div>
+        <div class="service">
+            <div class="image-container product"
+                data-before-content="COMMERCIAL PHOTOGRAPHY" 
+                data-after-content="And for you e-commerce bussiness men and women out there, we will assist">
+                <img src="../assets/services/products.jpg" alt="Header image" class="serviceImg" id="test">
+            </div>
+        </div>
+        <button class="read_more_button" onclick="location.href='about.html'">READ MORE</button>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="about.html">  ABOUT US  </a>
+            <span>|</span>
+            <a href="contact.html">  CONTACT  </a>
+        </div>
+        <span>EDGE 2021 all rights reserved ©</span>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

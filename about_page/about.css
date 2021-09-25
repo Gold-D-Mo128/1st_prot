@@ -1,0 +1,57 @@
+/* using border-box to account for any margins and paddings added */
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 70px 0px;
+    position: relative;
+    line-height: 35px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+}
+.text-holder{
+    width: 70%;
+    margin:auto;
+    box-sizing: border-box;
+}
+p{
+margin:25px auto;
+}
+/* using specific styling for each image */
+.studio{
+    width: 50%;
+    float: left;
+    margin: 20px 30px 20px 0;
+}
+.studio-tech{
+    width: 25%;
+    float: right;
+    margin: 20px 0 20px 30px;
+}
+.location{
+    width: 50%;
+    float: left;
+    right: 20px;
+    margin: 20px 30px 20px 0;
+}
+/* tablet screen size */
+@media only screen and (max-width: 1024px)
+{   .text-holder{
+        width: 90%;
+        margin:auto;
+        box-sizing: border-box;
+    }
+    /* adjusting sizes and widths of the photos*/
+    .studio{
+        width: 60%;
+    }
+    .studio-tech{
+        width: 30%;
+        float: right;
+        margin: 10px 0 10px 20px;
+    }
+    .location{
+        width: 45%;
+        right: 20px;
+        margin: 10px 20px 20px 0;
+    }
+}
